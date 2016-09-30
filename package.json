@@ -1,0 +1,11 @@
+{
+  "name": "mrhex-dark-ui",
+  "theme": "ui",
+  "version": "0.50.0",
+  "description": "A dark UI theme for Atom",
+  "license": "MIT",
+  "repository": "https://github.com/xMrHeX/mrhex-dark-ui",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
