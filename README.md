@@ -16,3 +16,12 @@ _UI Themes_ drop-down menu.
 
 With [MrHeX Dark Syntax](https://github.com/xMrHeX/mrhex-dark-syntax).
 ![](http://i.imgur.com/uFmhMUQ.png)
+
+# Contributing
+
+Please check the [CONTRIBUTING.md](https://github.com/xMrHeX/mrhex-dark-ui/blob/master/CONTRIBUTING.md) file.
+
+# License
+MrHeX Dark UI is licensed under MIT.
+
+View the license file [here](https://github.com/xMrHeX/mrhex-dark-ui/blob/master/LICENSE.md)
