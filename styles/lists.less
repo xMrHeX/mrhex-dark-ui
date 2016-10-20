@@ -45,6 +45,9 @@
   }
 }
 
+.list-tree.has-collapsable-children .list-nested-item > .list-tree > li, .list-tree.has-collapsable-children .list-nested-item > .list-group > li {
+    padding-left: 10px;
+}
 .select-list ol.list-group,
 &.select-list ol.list-group {
   li.two-lines {
@@ -59,6 +62,7 @@
   // know their size.
   li.selected {
     background-color: @background-color-selected;
+    color: @text-color-selected;
     &:before{ display: none; }
   }
 
@@ -127,4 +131,8 @@ li.ui-draggable-dragging, li.ui-sortable-helper {
   padding: 0 @component-padding;
   background: @background-color-highlight;
   box-shadow: 0 0 1px @base-border-color;
+}
+
+.icon-file-directory:before {
+    color: @text-color-highlight;
 }

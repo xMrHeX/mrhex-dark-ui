@@ -5,7 +5,7 @@
   background: @tree-view-background-color;
 
   .selected:before {
-    background: #444;
+    background: #222;
     box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
   }
 }
@@ -26,7 +26,18 @@
     .selected:before {
       background: #222;
     }
+
+    .selected > .name,
+    .selected > .name:before,
+    .selected > .list-item > .name,
+    .selected > .list-item > .name:before {
+      color: @text-color-group !important;
+    }
   }
+}
+
+.name {
+    vertical-align: top;
 }
 
 [data-show-on-right-side=true] {
